@@ -1,0 +1,85 @@
+body {
+  background-color: black;
+  color: black;
+  font-family: Arial, sans-serif;
+}
+.navbar {
+  background-color: #0a1f0f !important;
+}
+.navbar-brand {
+  font-weight: bold;
+  font-size: 1.5rem;
+  color: #278060;
+}
+.nav-link {
+  color: #ffffff !important;
+}
+.jumbotron {
+  background-image: url('./Assets/Image/Background/DEKU.jpg');
+  background-size: cover;
+  background-position: center;
+  color: #fff;
+  padding: 200px 0;
+  text-align: center;
+}
+.home-text {
+  text-align: left; /* Pindahkan teks ke kiri */
+}
+.about-section {
+  background-color:#0a1f0f;
+  color: #fff;
+  padding: 80px 0;
+}
+.about-section h2 {
+  color: #278060; /* Warna judul bagian about */
+  margin-top: -50px;
+  font-size: 2rem;
+  font-weight: bold;
+}
+.profile-info h5 {
+  color: black;
+  font-size: 1.2rem;
+  font-weight: bold;
+}
+.portfolio-section {
+  background-color: #276c64;
+  padding: 50px 0;
+}
+.portfolio-section h2 {
+  color: white; /* Warna judul bagian portfolio */
+  font-size: 2rem;
+  font-weight: bold;
+}
+.contact-section {
+  background-color: #0a1f0f; /* Warna background bagian contact */
+  color: #fff;
+  padding: 1px 0;
+}
+.contact-item {
+  text-align: center;
+  font-size: 0.8rem;
+  font-weight: bold;
+}
+.jumbotron h1 {
+  font-family: 'Berlin Sans FB', sans-serif;
+}
+/* Mengatur ukuran gambar My Foto */
+#my-foto {
+  max-width: 50%;
+  margin-left: 200px;
+  margin-top: 50px; /* Menambah jarak */
+}
+/* Mengatur teks deskripsi */
+.profile-description {
+  margin-top: 50px; /* Menambah jarak */
+  text-align: justify;
+  margin-right: 200px;
+}
+/* Mengatur ukuran logo kontak */
+.contact-item img {
+  width: 50px;
+}
+/* Mengatur posisi logo kontak */
+.contact-icons {
+  margin-top: 50px;
+}

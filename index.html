@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Portfolio - Portfolio ABI</title>
+  <link rel="stylesheet" href="./style.css"/>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/css/bootstrap.min.css" rel="stylesheet">
+
+</head>
+<body>
+
+<!-- Navigation -->
+<nav class="navbar navbar-expand-lg navbar-dark bg-dark">
+  <div class="container">
+    <a class="navbar-brand" href="#">WELCOME TO MY PORTFOLIO</a>
+    <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+      <span class="navbar-toggler-icon"></span>
+    </button>
+    <div class="collapse navbar-collapse justify-content-end" id="navbarNav">
+      <ul class="navbar-nav">
+        <li class="nav-item">
+          <a class="nav-link" href="#home">Home</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#about">About</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#portfolio">Portfolio</a>
+        </li>
+        <li class="nav-item">
+          <a class="nav-link" href="#contact">Contact</a>
+        </li>
+      </ul>
+    </div>
+  </div>
+</nav>
+
+<!-- Home Section -->
+<section id="home" class="jumbotron">
+  <div class="container home-text text-start"> <!-- Tambahkan class text-start di sini -->
+    <h1 class="display-4 font-weight-bold">Muh. Hasbi Asshiddiq</h1>
+    <p class="lead">W E B &nbsp; D E V E  L O P E R</p>
+  </div>
+</section>
+
+<!-- About Section -->
+<section id="about" class="about-section">
+  <div class="container">
+    <h2 class="text-center mb-4">PROFILE</h2>
+    <div class="row align-items-center">
+      <div class="col-md-6">
+        <!-- Gambar My Foto -->
+        <div class="profile-image">
+          <img id="my-foto" src="./Assets/Image/My Foto.jpeg" alt="My Photo">
+        </div>
+      </div>
+      <div class="col-md-6">
+        <!-- Teks deskripsi -->
+        <p class="profile-description fs-5">Saya seorang mahasiswa yang penuh semangat dan antusias dalam menjelajahi perkembangan website. <br> <br> <br> <br> <br> Meskipun masih berstatus mahasiswa, saya memiliki minat yang kuat dalam teknologi informasi dan tekad untuk terus belajar dan berkontribusi dalam proyek-proyek pengembangan web di masa depan.</p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Bagian PENDIDIKAN, PENGALAMAN, dan HOBI -->
+<section id="education-experience-hobbies" class="profile-info mt-5">
+  <div class="container">
+    <div class="row">
+      <div class="col-md-4">
+        <h5 class="font-weight-bold">PENDIDIKAN</h5>
+        <p>S1 Teknologi Informasi
+          <br>2021 - 2024
+          <br>Universitas Mercubuana Yogyakarta
+          <br>Program Studi: Informatika
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="font-weight-bold">PENGALAMAN</h5>
+        <p>Machine Learning Data Analysis
+          <br>Digital Business Strategy Development
+          <br>Logo and Character Design
+        </p>
+      </div>
+      <div class="col-md-4">
+        <h5 class="font-weight-bold">HOBI</h5>
+        <p>Editing
+          <br>Art Design
+          <br>Playing Games
+          <br>Drawing
+          <br>Table Tennis
+        </p>
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Portfolio Section -->
+<section id="portfolio" class="portfolio-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Check Out Some of My Works</h2>
+    <div class="row">
+      <div class="col-md-3">
+        <img src="./Assets/Image/Proses Gambar.jpeg" class="img-fluid" alt="Portfolio 1">
+      </div>
+      <div class="col-md-4">
+        <img src="./Assets/Image/Hasil Gambar.jpg" class="img-fluid" alt="Portfolio 2">
+      </div>
+      <div class="col-md-5">
+        <img src="./Assets/Image/art my foto.jpg" class="img-fluid" alt="Portfolio 3">
+      </div>
+      <div class="col-md-6">
+        <img src="./Assets/Image/KG.jpg" class="img-fluid" alt="Portfolio 4">
+      </div>
+      <div class="col-md-6">
+        <img src="./Assets/Image/Output KG.jpg" class="img-fluid" alt="Portfolio 5">
+      </div>
+    </div>
+  </div>
+</section>
+
+<!-- Contact Section -->
+<section id="contact" class="contact-section">
+  <div class="container">
+    <h2 class="text-center mb-4">Click the icon to switch</h2> <!-- Ubah class="" menjadi class="text-center mb-4" -->
+    <div class="row contact-icons justify-content-center"> <!-- Tambahkan class justify-content-center di sini -->
+      <div class="col-md-2 contact-item">
+        <h4>WhatsApp</h4>
+        <a href="https://wa.me/6281311113941">
+          <img src="./Assets/Image/whatsapp.jpg" class="img-fluid" alt="WhatsApp">
+        </a>
+      </div>
+      <div class="col-md-2 contact-item">
+        <h4>Email</h4>
+        <a href="mailto:muh.hasbi.abi97@gmail.com">
+          <img src="./Assets/Image/email-logo.jpg" class="img-fluid" alt="Email">
+        </a>
+      </div>
+      <div class="col-md-2 contact-item">
+        <h4>Location</h4>
+        <a href="https://maps.app.goo.gl/d3FLqFknUjamHRjY8">
+          <img src="./Assets/Image/google.maps.jpg" class="img-fluid" alt="Maps">
+        </a>
+      </div>
+    </div>
+  </div>
+</section>
+
+<script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.6/dist/umd/popper.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha1/dist/js/bootstrap.min.js"></script>
+
+</body>
+</html>
